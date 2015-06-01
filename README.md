@@ -14,7 +14,7 @@ git reset --soft HEAD~n
 
 ## Make a patch
 
-Useful commands I use for creating a patch for clients.
+Useful commands you use for creating a patch for clients.
 
 ### Create a zip from a diff filenames
 ```bash
@@ -23,10 +23,10 @@ git diff --name-only tag..master | xargs zip name.zip
 
 This command will make a zip file from the diff.
 
-If I want to delete a part of the path I will do this:
+If you want to delete a part of the path you have to do this:
 
 ```bash
 git diff --name-only tag..master | sed "s/project\///" | xargs zip name.zip
 ```
 
-**project** is the part of the path I want to delete.
+**project** is the part of the path you want to delete.
