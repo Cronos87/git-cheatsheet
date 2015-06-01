@@ -26,7 +26,7 @@ This command will make a zip file from the diff.
 If I want to delete a part of the path I will do this:
 
 ```bash
-git diff --name-only tag..master | sed "s/project\///" | xargs zip update-2015-05-29.zip
+git diff --name-only tag..master | sed "s/project\///" | xargs zip name.zip
 ```
 
 **project** is the part of the path I want to delete.
