@@ -6,6 +6,8 @@ git diff --name-only tag..master
 ```
 
 ### Reset and conserve files
+This command is useful if you want to cancel your last **n** commits and conserve all the modifications.
+
 ```bash
 git reset --soft HEAD~n
 ```
@@ -30,3 +32,23 @@ git diff --name-only tag..master | sed "s/project\///" | xargs zip name.zip
 ```
 
 **project** is the part of the path you want to delete.
+
+## Playing with branches
+
+### Create a branch
+```bash
+git checkout -b branch_name
+```
+
+### Switch to a branch
+```bash
+git checkout branch_name
+```
+
+### Merge a branch
+```bash
+git merge branch_name
+```
+
+This command will merge **branch_name** into your current branch.
+For exemple, if you are on the master, this will merge the selected branch into master.
