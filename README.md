@@ -60,12 +60,17 @@ For exemple, if you are on the master, this will merge the selected branch into 
 git tag tag_name
 ```
 
+### Push a tag to origin
+```bash
+git push origin tag_name
+```
+
 ### Delete a tag
 ```bash
 git tag -d tag_name
 ```
 
-### Push a tag to origin
+### Delete a tag on origin
 ```bash
-git push origin tag_name
+git push origin :tag_name
 ```
