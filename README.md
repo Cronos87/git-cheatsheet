@@ -53,6 +53,21 @@ git merge branch_name
 This command will merge **branch_name** into your current branch.
 For exemple, if you are on the master, this will merge the selected branch into master.
 
+### Delete a branch merged
+```bash
+git branch -d branch_name
+```
+
+### Delete a branch even not merged
+```bash
+git branch -D branch_name
+```
+
+### Delete a branch on origin
+```bash
+git push origin :branch_name
+```
+
 ## Tag
 
 ### Create a tag
