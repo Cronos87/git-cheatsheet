@@ -12,6 +12,12 @@ This command is useful if you want to cancel your last **n** commits and conserv
 git reset --soft HEAD~n
 ```
 
+### Revert merge and go back to the HEAD version
+
+```bash
+git reset --merge ORIG_HEAD
+```
+
 **n** is the number of commit to reset.
 
 ## Make a patch
