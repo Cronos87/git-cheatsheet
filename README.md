@@ -95,3 +95,10 @@ git tag -d tag_name
 ```bash
 git push origin :tag_name
 ```
+
+## Divers
+
+### Order tags by creation date
+```bash
+git config --global tag.sort version:refname
+```
