@@ -102,3 +102,6 @@ git push origin :tag_name
 ```bash
 git config --global tag.sort version:refname
 ```
+
+### Add an empty directory
+To add an empty directory, you have to create an empty file named `.gitkeep` and then commit this file.
