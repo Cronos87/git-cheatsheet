@@ -71,7 +71,7 @@ git remote add origin url
 
 L'url sera donnée par gitlab sur la page d'accueil du projet. Elle se forme de la façon suivante :
 
-git@gitlab.site.com:project/project.git
+`git@gitlab.site.com:project/project.git`
 
 Une fois cela effectué il ne reste plus qu'à envoyer les fichiers sur le dépôt. Voici la commande :
 
