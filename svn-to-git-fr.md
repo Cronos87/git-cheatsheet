@@ -75,8 +75,10 @@ L'url sera donnée par gitlab sur la page d'accueil du projet. Elle se forme de 
 
 Une fois cela effectué il ne reste plus qu'à envoyer les fichiers sur le dépôt. Voici la commande :
 
+```bash
 git push -u origin master
+```
 
-Le paramètre -u (alias de --set-upstream) permet de créer la branche master sur origin. Les prochains push sur le master ne nécessiteront donc plus le paramètre -u pour pusher.
+Le paramètre `-u` (alias de --set-upstream) permet de créer la branche master sur origin. Les prochains push sur le master ne nécessiteront donc plus le paramètre -u pour pusher.
 
 Voilà tout est maintenant fonctionnel pour travailler sous git.
