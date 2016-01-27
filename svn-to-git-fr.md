@@ -43,7 +43,7 @@ Laissez le temps à git de rapatrier les fichiers en local.
 ## Vérification du bon fonctionnement du clone
 
 Rendez-vous dans le projet à peine cloné et contrôlez que le fichier de correspondance a bien été appliqué.
-En ligne de commande cela donne : git log.
+En ligne de commande cela donne : `git log`.
 
 Vous aurez alors quelque chose comme :
 
