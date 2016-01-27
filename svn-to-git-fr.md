@@ -49,7 +49,7 @@ Vous aurez alors quelque chose comme :
 
 ```
 commit 22752b20d42010a51726a4a5c91ad13e1708c3d6
-Author: **Yohan Tambe** <**yohan.tambe@b-i.com**>
+Author: **Yohan Tambe** <**yohan.tambe@gmail.com**>
 Date:   Fri Aug 22 11:51:22 2014 +0000
 
     Ajout d'une admin de traduction
