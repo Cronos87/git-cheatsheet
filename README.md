@@ -143,3 +143,15 @@ git config --global tag.sort version:refname
 ### Add an empty directory
 
 To add an empty directory, you have to create an empty file named `.gitkeep` and then commit this file.
+
+### Find who create a file
+
+```bash
+git log --diff-filter=A -- filepath
+```
+
+### Remove all same files
+
+```bash
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+```
